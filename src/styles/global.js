@@ -7,7 +7,7 @@ export const theme = {
   accent: '#F46036',
   titleOne: '#fff',
   titleTwo: '#000',
-  text: '#aaa',
+  text: '#70757a;',
 };
 
 
@@ -45,5 +45,13 @@ export default createGlobalStyle`
   body, input, textarea {
     font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
+  }
+
+  h1, h2, h3, span, p {
+    font-family: 'Inter', sans-serif;
+  }
+
+  button, Link, a {
+    cursor: pointer;
   }
 `;
