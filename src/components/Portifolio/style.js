@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Container from '../Container';
 
 export const SectionPortifolio = styled.div`
-
   width: 100%;
   height: 750px;
   margin-top: 50px;
@@ -17,10 +16,16 @@ export const SectionPortifolio = styled.div`
   }
 
   @media (max-width: 1111px){
-
     img{
       width: 250px;
       height: 250px;
+    }
+  }
+
+  @media (max-width: 412px) {
+    img{
+      width: 150px;
+      height: 150px;
     }
   }
  
@@ -31,7 +36,22 @@ export const SectionPortifolio = styled.div`
     font-weight: 400;
   }
 
- /* .content{
+`;
+
+export const Content = styled(Container)`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .single-img{
+    padding: 0 10px 20px;
+  }
+`;
+
+
+/* .content{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -58,18 +78,4 @@ export const SectionPortifolio = styled.div`
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: minmax(100px, auto);
   }*/
-
-`;
-
-export const Content = styled(Container)`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  .single-img{
-    padding: 0 10px 20px;
-  }
-`;
 

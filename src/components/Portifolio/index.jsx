@@ -19,7 +19,7 @@ const Portifolio = () => {
           <div className="single-img"><img src={gobarber} alt=""/></div>
         </Content>
     </SectionPortifolio>
-  );
+  );  
 }
 
 export default Portifolio;

@@ -5,6 +5,13 @@ import Container from '../../components/Container';
 
 export const Content = styled.div`
   width: 100%;
+
+  @media screen and (max-width: 600px) {
+    Content {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
 `;
 
 
@@ -16,6 +23,7 @@ export const Section = styled(Container)`
   ${below('lg', css `
     padding: 8rem 0;
   `)}
+  
   ${below(710, css`
     max-width: 100%;
     flex-direction: column;
