@@ -63,14 +63,37 @@ export const About = styled.div`
 export const Img = styled.div`
   margin-top: 10rem;
 
+  img{
+    max-width: 700px;
+  }
+
+  @media screen and (max-width: 881px) and (min-width: 773px){
+    img{
+      width: 500px;
+    }
+  }
+
+  @media ( max-width: 412px) {
+    img{
+      width: 350px;
+      height: 600px;
+    }
+  }
+
   ${below('lg', css`
     margin-bottom: 20rem;
     height: 200px;
+
+    img{
+      max-width: 600px;
+      max-height: 350px;
+    }
   `)}
 
   ${below('md', css`
     margin-bottom: 20rem;
     height: 180px;
+
   `)}
 
   ${below(710, css`
