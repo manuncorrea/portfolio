@@ -4,6 +4,7 @@ import GlobalStyle, { theme } from './styles/global';
 
 import Header from './components/Header';
 import Home from './pages/Home';
+import Footer from './components/Footer';
 //import theme from './styles/theme';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Header />
       <Home />
+      <Footer />
       <GlobalStyle />
     </ThemeProvider>
   );

@@ -18,8 +18,9 @@ const Header = () => {
         </Logo>
         <Menu open={open}>
           <Link active>Sobre</Link>
-          <Link>Portifolio</Link>
-          <Link>Tecnologias</Link>
+          <Link>Projetos</Link>
+          <Link>Skill</Link>
+          <Link>Repositorios</Link>
           <Link >Contato</Link>
         </Menu>
         <NavToggle open={open} onClick={handleToggle}>

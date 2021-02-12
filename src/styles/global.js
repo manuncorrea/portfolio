@@ -3,7 +3,7 @@ import { below } from './responsive';
 
 export const theme = {
   primary: '#673AB7',
-  seccundary: '#953CCC',
+  seccundary: '#482880',
   accent: '#F46036',
   titleOne: '#fff',
   titleTwo: '#000',
@@ -12,7 +12,7 @@ export const theme = {
 
 
 export default createGlobalStyle`
-   *,
+  *,
   *::before,
   *::after {
     margin: 0;

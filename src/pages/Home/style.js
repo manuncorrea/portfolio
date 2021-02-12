@@ -3,9 +3,12 @@ import { shade } from 'polished';
 import { below } from '../../styles/responsive';
 import Container from '../../components/Container';
 
+export const Content = styled.div`
+  width: 100%;
+`;
+
 
 export const Section = styled(Container)`
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,6 +17,7 @@ export const Section = styled(Container)`
     padding: 8rem 0;
   `)}
   ${below(710, css`
+    max-width: 100%;
     flex-direction: column;
     padding: 6rem 0;
   `)}
@@ -76,11 +80,3 @@ export const Img = styled.div`
 
 `;
 
-export const Portifolio = styled.div`
-  background: ${({ theme }) => theme.primary};
-  margin-top: 10rem;
-  width: 100%;
-  height: auto;
-`;
-
-export const SectionPortifolio = styled(Container)``;

@@ -1,12 +1,14 @@
 import React from 'react';
-import { Section, About, Img } from  './style';
+import { Content, Section, About, Img } from  './style';
 
+import Repositories from '../../components/Repositories';
 import aboutImg from '../../assets/image/about2.svg';
+import Portifolio from '../../components/Portifolio';
 
 
 const Home = () => {
   return(
-    <>
+    <Content>
       <Section>
         <About>
           <h1>
@@ -14,15 +16,15 @@ const Home = () => {
           </h1>
           <h3>Web Developer</h3>
           <p>Formada em Ciências da computação</p>
-          <button>Saiba Mais</button>
+          <button>Saiba mais</button>
         </About>
         <Img>
           <img src={aboutImg} alt="Sobre"/>
         </Img>
       </Section>
-
-      
-    </>
+      <Portifolio />
+      <Repositories />
+    </Content>
   );
 }
 

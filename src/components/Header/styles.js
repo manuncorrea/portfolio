@@ -7,7 +7,7 @@ export const Navbar = styled.header`
   position: relative;
   width: 100%;
   height: 10rem;
-  background: ${({ theme }) => theme.primary};
+  background: ${({ theme }) => theme.seccundary};
   box-shadow: 0 2px 6px rgba(0, 0 , 0, .16);
   z-index: 2;
 `;
@@ -73,7 +73,7 @@ export const Link = styled.a.attrs({
       height: 2px;
       left: 0;
       bottom: -2px;
-      background: ${theme.seccundary};
+      background: ${theme.accent};
     }
   `}
 
