@@ -102,6 +102,11 @@ export const Img = styled.div`
     margin-bottom: 20rem;
     height: 180px;
 
+    img{
+      max-width: 450px;
+      max-height: 350px;
+    }
+
   `)}
 
   ${below(710, css`

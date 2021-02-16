@@ -1,9 +1,13 @@
 import React from 'react';
+
 import { Content, Section, About, Img } from  './style';
 
+import Portfolio from '../../components/Portfolio';
 import Repositories from '../../components/Repositories';
+
 import aboutImg from '../../assets/image/about2.svg';
-import Portifolio from '../../components/Portifolio';
+
+
 
 
 const Home = () => {
@@ -22,7 +26,7 @@ const Home = () => {
           <img src={aboutImg} alt="Sobre"/>
         </Img>
       </Section>
-      <Portifolio />
+      <Portfolio />
       <Repositories />
     </Content>
   );

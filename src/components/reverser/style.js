@@ -7,6 +7,10 @@ export const SectionPortifolio = styled.div`
   margin-top: 50px;
   background: ${({ theme }) => theme.seccundary};
 
+  @media (max-width: 367px) {
+    height: 800px;
+  }
+
   img{
     transition: transform .2s, box-shadow .2s;
 
@@ -15,10 +19,9 @@ export const SectionPortifolio = styled.div`
     }
   }
 
-  @media (max-width: 1111px){
+  @media (max-width: 367px){
     img{
-      width: 250px;
-      height: 250px;
+      width: 400px;
     }
   }
 
