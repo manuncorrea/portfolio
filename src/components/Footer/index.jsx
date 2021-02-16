@@ -1,4 +1,4 @@
-import React, { Link } from 'react';
+import React from 'react';
 import { GrGithub, GrLinkedin, GrTwitter } from 'react-icons/gr';
 
 import { Content, Section, Social, Rodape} from './style';
@@ -13,20 +13,14 @@ const Footer = () => {
           </div>
           <Social>
             <span>
-              <a target="_blank" href="https://github.com/manuncorrea">
                <GrGithub className="social" />
-              </a>
             </span>
             <span>
-              <a target="_blank" href="https://www.linkedin.com/in/emanuele-correa-0372b2117/">
-                <GrLinkedin className="social"  />
-              </a>
+              <GrLinkedin className="social"  />
             </span>
 
             <span>
-            <a target="_blank" href="https://twitter.com/Manuncorrea">
               <GrTwitter className="social"  />
-            </a>
             </span>
           </Social>
         </Section>
