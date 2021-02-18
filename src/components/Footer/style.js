@@ -6,12 +6,23 @@ export const Content = styled.div`
   height: 290px;
   background: ${({ theme }) => theme.primary};
 `;
+
 export const Section = styled(Container)`
   .title{
     text-align: center;
     color: #fff;
     padding: 3.5rem;
   }
+
+  span#underline{
+      content: '';
+      border-top: 2px solid ${({ theme }) => theme.accent};
+      width: 70px;
+      display: block;
+      margin-bottom: 8px;
+      margin: 0 auto;
+    }
+  
 `;
 
 export const Social = styled.div`
@@ -29,7 +40,6 @@ export const Social = styled.div`
     background: #fff;
     margin-left: 10px;
   }
-
   .social{
     width: 20px;
     height: 20px;
@@ -39,12 +49,11 @@ export const Social = styled.div`
  export const Rodape = styled.div`
   background: ${({ theme }) => theme.seccundary};
 
-  span{
+  .footer{
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-
     color: #f1f1f1;
     font-weight: 300;
   }

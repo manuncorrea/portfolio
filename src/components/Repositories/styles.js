@@ -8,7 +8,9 @@ export const Content = styled.div`
   text-align: center;
   padding: 6rem 0;
 
-  h1{
+  h2{
+    font-size: 36px;
+    font-weight: 400;
     margin-bottom: 30px;
   }
 `;

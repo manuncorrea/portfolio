@@ -6,6 +6,7 @@ import Portfolio from '../../components/Portfolio';
 import Repositories from '../../components/Repositories';
 
 import aboutImg from '../../assets/image/about2.svg';
+import Skill from '../../components/Skill';
 
 
 
@@ -27,6 +28,7 @@ const Home = () => {
         </Img>
       </Section>
       <Portfolio />
+      <Skill />
       <Repositories />
     </Content>
   );

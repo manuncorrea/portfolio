@@ -10,6 +10,7 @@ const Footer = () => {
         <Section>
           <div className="title">
             <h1>Contato</h1>
+            <span id="underline"></span>
           </div>
           <Social>
             <span>
@@ -26,7 +27,7 @@ const Footer = () => {
         </Section>
       </Content>
       <Rodape>
-        <span>Copyright © 2021 </span>
+        <span className="footer">Copyright © 2021 </span>
       </Rodape>
     </>
     

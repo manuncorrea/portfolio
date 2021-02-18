@@ -13,7 +13,7 @@ const Teste = () => {
   return(
     <Section>
       <div className="title">
-        <h2>Portfolio</h2>
+        <h2>Projetos</h2>
         <span></span>
       </div>
       <PortfolioTeste>

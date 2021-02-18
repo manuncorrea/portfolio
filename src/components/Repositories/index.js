@@ -8,7 +8,7 @@ import database from '../../database.json';
 const Repositores = () => {
   return(
     <Content>
-      <h1>Repositorios nos GitHub</h1>
+      <h2>Repositorios nos GitHub</h2>
       <Wrapper>
         {database.map(repo => (
           <Repository key={repo.url} repo={repo} />

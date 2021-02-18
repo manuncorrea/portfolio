@@ -24,11 +24,11 @@ export const Section = styled.section`
     }
   }
 
-  @media (max-width: 800px) {
+  /* @media (max-width: 800px) {
     height: 950px;
-  }
+  } */
 
-  @media (max-width: 663px) {
+  @media (max-width: 940px) {
     height: 1700px;
   }
 `;
@@ -42,7 +42,7 @@ export const PortfolioTeste = styled(Container)`
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (max-width: 663px){
+  @media (max-width: 940px){
     display: flex;
     flex-direction: column;
     align-items: center;
