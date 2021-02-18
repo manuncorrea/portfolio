@@ -1,80 +1,80 @@
 [
   {
     "author": "Emanuele Correa",
-    "name": "manuncorrea",
+    "name": "Gobarber",
     "avatar": "https://avatars.githubusercontent.com/u/15049865?s=460&u=6d58b57ac3c885fe570eb32c1b0a273e72771060&v=4",
-    "url": "https://github.com/manuncorrea/aluraquiz-base",
-    "description": "Imersão alura, quiz ReactJs",
+    "url": "https://github.com/manuncorrea/gobarber-web",
+    "description": "Gobarber e uma plataforma de agendamento, para barberia desenvolvida durante o bootcamp da Rocktseat.",
     "language": "JavaScript",
     "languageColor": "#f1e05a",
-    "stars": 139844,
-    "forks": 26613,
+    "stars": 13,
+    "branch": 1,
     "currentPeriodStars": 464
   },
 
   {
     "author": "Emanuele Correa",
-    "name": "manuncorrea",
+    "name": "Happy",
     "avatar": "https://avatars.githubusercontent.com/u/15049865?s=460&u=6d58b57ac3c885fe570eb32c1b0a273e72771060&v=4",
-    "url": "https://github.com/manuncorrea/aluraquiz-base",
-    "description": "Imersão alura, quiz ReactJs",
+    "url": "https://github.com/manuncorrea/happy",
+    "description": "Projeto Happy desenvolvido na Next Level da Rocketseat.",
     "language": "JavaScript",
     "languageColor": "#f1e05a",
-    "stars": 139844,
-    "forks": 26613,
+    "stars": 1,
+    "branch": 2,
     "currentPeriodStars": 464
   },
 
   {
     "author": "Emanuele Correa",
-    "name": "manuncorrea",
+    "name": "Quiz React",
     "avatar": "https://avatars.githubusercontent.com/u/15049865?s=460&u=6d58b57ac3c885fe570eb32c1b0a273e72771060&v=4",
     "url": "https://github.com/manuncorrea/aluraquiz-base",
-    "description": "Imersão alura, quiz ReactJs",
+    "description": "Imersão alura, quiz ReactJs.",
     "language": "JavaScript",
     "languageColor": "#f1e05a",
-    "stars": 139844,
-    "forks": 26613,
+    "stars": 4,
+    "branch": 1,
     "currentPeriodStars": 464
   },
 
   {
     "author": "Emanuele Correa",
-    "name": "manuncorrea",
+    "name": "Ecoleta",
     "avatar": "https://avatars.githubusercontent.com/u/15049865?s=460&u=6d58b57ac3c885fe570eb32c1b0a273e72771060&v=4",
-    "url": "https://github.com/manuncorrea/aluraquiz-base",
-    "description": "Imersão alura, quiz ReactJs",
+    "url": "https://github.com/manuncorrea/ecoleta",
+    "description": "Ecoleta um projet open source desenvolvido na Next Level.",
     "language": "JavaScript",
     "languageColor": "#f1e05a",
-    "stars": 139844,
-    "forks": 26613,
+    "stars": 3,
+    "branch": 2,
     "currentPeriodStars": 464
   },
 
   {
     "author": "Emanuele Correa",
-    "name": "manuncorrea",
+    "name": "Among Us",
     "avatar": "https://avatars.githubusercontent.com/u/15049865?s=460&u=6d58b57ac3c885fe570eb32c1b0a273e72771060&v=4",
-    "url": "https://github.com/manuncorrea/aluraquiz-base",
-    "description": "Imersão alura, quiz ReactJs",
+    "url": "https://github.com/manuncorrea/memory-amongUs",
+    "description": "Jogo da memoria do reator.",
     "language": "JavaScript",
     "languageColor": "#f1e05a",
-    "stars": 139844,
-    "forks": 26613,
+    "stars": 1,
+    "branch": 1,
     "currentPeriodStars": 464
   },
 
   {
     "author": "Emanuele Correa",
-    "name": "manuncorrea",
+    "name": "GoFinanças",
     "avatar": "https://avatars.githubusercontent.com/u/15049865?s=460&u=6d58b57ac3c885fe570eb32c1b0a273e72771060&v=4",
-    "url": "https://github.com/manuncorrea/aluraquiz-base",
-    "description": "Imersão alura, quiz ReactJs",
-    "language": "JavaScript",
+    "url": "https://github.com/manuncorrea/goFinancas",
+    "description": "Desafio 05 concluido durante o bootcamp.",
+    "language": "Typescript",
     "languageColor": "#f1e05a",
-    "stars": 139844,
-    "forks": 26613,
-    "currentPeriodStars": 464
+    "stars": 10,
+    "branch": 7,
+    "currentPeriodStars": 466
   }
   
 ]

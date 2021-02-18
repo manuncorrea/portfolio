@@ -39,13 +39,26 @@ export const Social = styled.div`
     border-radius: 50%;
     background: #fff;
     margin-left: 10px;
+
+    cursor: pointer;
+
+    &:hover{
+      background: ${({ theme }) => theme.seccundary}
+    }
   }
+
   .social{
     width: 20px;
     height: 20px;
     color: ${({ theme }) => theme.primary};
+
+    &:hover{
+      color: #fff;
+    }
+
   }
 `;
+
  export const Rodape = styled.div`
   background: ${({ theme }) => theme.seccundary};
 

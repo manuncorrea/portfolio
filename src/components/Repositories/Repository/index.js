@@ -9,7 +9,7 @@ const Repository = ({ repo }) => {
     name,
     avatar,
     description,
-    forks, 
+    branch, 
     stars,
   } = repo;
 
@@ -23,12 +23,12 @@ const Repository = ({ repo }) => {
       <RepositoryStats>
         <div>
           <GoStar/>
-          <span><strong>{forks}</strong>forks</span>
+          <span><strong>{stars}</strong>stars</span>
         </div>
 
         <div>
           <GoGitBranch />
-          <span><strong>{stars}</strong>stars</span>
+          <span><strong>{branch}</strong>branch</span>
         </div>
       </RepositoryStats>
     </Content>
