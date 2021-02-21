@@ -21,7 +21,12 @@ const Home = () => {
           </h1>
           <h3>Web Developer</h3>
           <p>Formada em Ciências da computação</p>
-          <button>Saiba mais</button>
+          <a href="https://www.linkedin.com/in/emanuele-correa-0372b2117/" target="_blank" rel="noreferrer">
+            <button>
+              Saiba mais
+            </button>
+          </a>
+          
         </About>
         <Img>
           <img src={aboutImg} alt="Sobre"/>

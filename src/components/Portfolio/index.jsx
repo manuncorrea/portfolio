@@ -19,32 +19,44 @@ const Teste = () => {
       <PortfolioTeste>
         <div>
           <h3>Gobarber</h3>
-          <img src={Gobarber} alt=""/>
+          <a href="https://memory-among-us.vercel.app/"  target="_blank" rel="noreferrer">
+            <img src={Gobarber} alt=""/>
+          </a>
         </div>
 
         <div>
           <h3>Happy</h3>
-          <img src={Happy} alt=""/>
+          <a href="https://happy-amber.vercel.app/"  target="_blank" rel="noreferrer">
+            <img src={Happy} alt=""/>
+          </a>
         </div>
 
         <div>
           <h3>Quiz ReactJS</h3>
-          <img src={Quiz} alt=""/>
+          <a href="https://aluraquiz-base-eight-topaz.vercel.app/"  target="_blank" rel="noreferrer">
+            <img src={Quiz} alt=""/>
+          </a>
         </div>
 
         <div>
           <h3>Ecoleta</h3>
-          <img src={Ecoleta} alt=""/>
+          <a href="https://memory-among-us.vercel.app/"  target="_blank" rel="noreferrer">
+            <img src={Ecoleta} alt=""/>
+          </a>
         </div>
 
         <div>
           <h3>Memory Among Us</h3>
-          <img src={AmongUs} alt=""/>
+          <a href="https://memory-among-us.vercel.app/"  target="_blank" rel="noreferrer">
+            <img src={AmongUs} alt=""/>
+          </a>
         </div>
 
         <div>
           <h3>GoFinanças</h3>
-          <img src={GoFinancas} alt=""/>
+          <a href="https://go-financas.vercel.app/"  target="_blank" rel="noreferrer">
+            <img src={GoFinancas} alt=""/>
+          </a>
         </div>
       </PortfolioTeste>
     </Section>
