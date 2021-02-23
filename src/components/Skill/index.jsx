@@ -6,7 +6,7 @@ import 'tippy.js/dist/tippy.css';
 const Skill = () => {
   return(
     <Section>
-        <div className="title">
+        <div id ="skill" className="title">
           <h2>Skill</h2>
           <span></span>
         </div>

@@ -8,7 +8,7 @@ const Footer = () => {
   return(
     <>
       <Content>
-        <Section>
+        <Section id="contato">
           <div className="title">
             <h1>Contato</h1>
             <span id="underline"></span>

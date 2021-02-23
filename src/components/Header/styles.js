@@ -47,7 +47,7 @@ export const Menu = styled.nav`
   `)}
 `;
 
-export const Link = styled.a.attrs({
+export const LinkMenu = styled.a.attrs({
   href: '#'
 })`
   position: relative;
@@ -113,7 +113,7 @@ export const NavToggle = styled.button`
     display: block;
     width: 100%;
     height: 4px;
-    background: ${({ theme }) => theme.accent};
+    background: ${({ theme }) => '#fff'};
     transition: .2s;
 
     &::before, &::after {

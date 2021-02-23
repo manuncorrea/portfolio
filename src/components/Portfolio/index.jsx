@@ -12,7 +12,7 @@ import GoFinancas from '../../assets/image/goFinancas.png';
 const Teste = () => {
   return(
     <Section>
-      <div className="title">
+      <div id="projetos" className="title">
         <h2>Projetos</h2>
         <span></span>
       </div>
