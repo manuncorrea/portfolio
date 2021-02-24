@@ -14,11 +14,11 @@
 
   {
     "author": "Emanuele Correa",
-    "name": "Happy",
+    "name": "Moviet",
     "avatar": "https://avatars.githubusercontent.com/u/15049865?s=460&u=6d58b57ac3c885fe570eb32c1b0a273e72771060&v=4",
-    "url": "https://github.com/manuncorrea/happy",
-    "description": "Projeto Happy desenvolvido na Next Level da Rocketseat.",
-    "language": "JavaScript",
+    "url": "https://github.com/manuncorrea/moveit",
+    "description": "Projeto Moviet, ainda em desenvolvimento.",
+    "language": "TypeScript",
     "languageColor": "#f1e05a",
     "stars": 1,
     "branch": 2,

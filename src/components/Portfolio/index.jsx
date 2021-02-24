@@ -3,7 +3,7 @@ import React from 'react';
 import { Section, PortfolioTeste } from './styles';
 
 import Gobarber from '../../assets/image/gobarber.png';
-import Happy from '../../assets/image/bae70600-11fe-11eb-8d7d-d7cf6c81529f.png';
+import Moviet from '../../assets/image/moviet.png';
 import Quiz from '../../assets/image/quiz.png';
 import AmongUs from '../../assets/image/amongus.png';
 import Ecoleta from '../../assets/image/e.png';
@@ -25,9 +25,9 @@ const Teste = () => {
         </div>
 
         <div>
-          <h3>Happy</h3>
-          <a href="https://happy-amber.vercel.app/"  target="_blank" rel="noreferrer">
-            <img src={Happy} alt=""/>
+          <h3>Moviet</h3>
+          <a href="https://moveit-swart.vercel.app/"  target="_blank" rel="noreferrer">
+            <img src={Moviet} alt=""/>
           </a>
         </div>
 
